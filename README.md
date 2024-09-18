@@ -1,1 +1,1 @@
-# Customer-Churn-Analysis
+# Customer Churn Analysis for a Telecom Company
