@@ -62,11 +62,7 @@ Before we proceed to building the models, lets define the important metrics need
 
 ### Evaluating the models
 Three supervised algorithms are considered for this classficiation - logistics regression (parametric approach), KNN and Randomd forest (as non parametric approach)
-- Running the logistic regression model without any hypertuning gives us an accuracy of 79.7% with auc at 84%. The training and test score of this model are close to each other. There may be an underfitting occuring over here. Hypertuning this model didnot change the acuracy much. (Accuracy 79.9%) 
-- KNN model gives a hight training score of 97% with testing score at 75.5%. Even the auc score is only 74.7%
-- Random forest gives a similar performance of prediction i.e., auc score of 80%  and 77.5% accuracy. With hypertuning of this model these results came same as logistic regression (80.4% accuracy, 84% auc score) 
+- Running the logistic regression model without any hypertuning gives us an accuracy of 81% with auc at 84%. The training and test score of this model are close to each other. There may be an underfitting occuring over here. Hypertuning this model change the acuracy. (Accuracy 88%) 
+- KNN model gives a hight training score of 98% with testing score at 81%. Even the auc score is only 80%
+- Random forest gives a similar performance of prediction i.e., auc score of 83%  and 80% accuracy. With hypertuning of this model these results came similar as logistic regression (86% accuracy, 88% auc score) 
 
-
-
-References ::
-[1] https://business.financialpost.com/technology/big-telecoms-are-spending-more-cash-to-keep-customers-but-some-tactics-raise-concerns
